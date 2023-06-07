@@ -12,8 +12,8 @@
 <body>
     <h1>
         <?php
-        $nome = "Vinicius";
-        echo "Seu nome é $nome?";
+        $resultado = pi() / M_PI;
+        echo  $resultado;
         ?>
     </h1>
     <p>Mwahahahahahaha</p>
