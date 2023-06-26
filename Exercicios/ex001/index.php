@@ -5,18 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document </title>
+    <title>Dados do Servidor</title>
+    <link rel="stylesheet" href="../../style.css">
 
 </head>
 
 <body>
-    <h1>
-        <?php
-        $resultado = pi() / M_PI;
-        echo  $resultado;
-        ?>
-    </h1>
-    <p>Mwahahahahahaha</p>
+    <h1>Dados do Servido r</h1>
+    <?php
+    phpinfo()
+    ?>
 </body>
 
 </html>
